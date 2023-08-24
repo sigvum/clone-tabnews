@@ -1,0 +1,21 @@
+.
+└── .
+    ├── estrutura_de_pastas.txt
+    ├── infra
+    │   ├── database.js
+    │   ├── migrations
+    │   └── provisioning
+    │       ├── production
+    │       └── staging
+    ├── models
+    │   ├── content.js
+    │   ├── password.js
+    │   └── user.js
+    ├── package.json
+    ├── package-lock.json
+    ├── pages
+    │   └── index.js
+    ├── README.md
+    └── tests
+
+5 directories, 13 files

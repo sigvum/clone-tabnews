@@ -12,3 +12,5 @@ docker-compose -f infra/compose.yaml up -d
 docker-compose -f infra/compose.yaml down
 <br>
 docker-compose -f infra/compose.yaml up -d --force-recreate
+<br>
+docker logs --follow <nome-do-container>

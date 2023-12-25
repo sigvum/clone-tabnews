@@ -10,4 +10,5 @@ git push <br>
 docker-compose -f infra/compose.yaml up -d
 <br>
 docker-compose -f infra/compose.yaml down
-
+<br>
+docker-compose -f infra/compose.yaml up -d --force-recreate

@@ -7,10 +7,6 @@ async function query(queryObject) {
         user: process.env.POSTGRES_USER,
         database: process.env.POSTGRES_DB,
         password: process.env.POSTGRES_PASSWORD,
-        ssl: 'require',
-        connection: {
-           options: `project=ep-fragrant-moon-a5c69gtq`,
-  },
     });
     await client.connect();
 

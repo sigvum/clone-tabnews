@@ -9,7 +9,7 @@ async function query(queryObject) {
         password: process.env.POSTGRES_PASSWORD,
         ssl: 'require',
         connection: {
-           options: `project=${ENDPOINT_ID}`,
+           options: `project=ep-fragrant-moon-a5c69gtq`,
   },
     });
     await client.connect();

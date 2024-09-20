@@ -14,3 +14,6 @@ docker-compose -f infra/compose.yaml down
 docker-compose -f infra/compose.yaml up -d --force-recreate
 <br>
 docker logs --follow <nome-do-container>
+
+<br><br>
+docker system prune -a

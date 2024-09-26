@@ -1,4 +1,4 @@
-ame: Linting
+name: Linting
 
 on: pull_request
 

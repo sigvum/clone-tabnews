@@ -17,3 +17,5 @@ docker logs --follow <nome-do-container>
 
 <br><br>
 docker system prune -a
+<br>
+git add -A && git commit -m --amend --no-edit && git push -f
